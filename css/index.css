@@ -328,7 +328,7 @@ body, td, th {
 .reg-new .login .log_sub .dl:hover {
     background-color: #2a8c70;
 }
-.reg-new .login .log_sub .reg {
+.reg-new .login .log_sub .reg{
     display: inline-block;
     float: right;
     width: 133px;
@@ -340,6 +340,10 @@ body, td, th {
     text-align: center;
     line-height: 28px;
     text-decoration: none;
+}
+.reg-new .login .log_sub .reg:hover {
+    background-color: transparent;
+    color: #30A080 !important;
 }
 .reg-new .login .act {
     margin-top:8px;
@@ -396,7 +400,7 @@ a:link {
 }
 a:hover {
     color: #fff !important;
-    background-color: #3377aa !important;
+    background-color: #3377aa;
     /*color: white;*/
 }
 /*a:visited {*/
