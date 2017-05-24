@@ -246,6 +246,7 @@ body, td, th {
     box-sizing: border-box;
     background-color: #fff;
     display: none;
+    z-index: 998;
 }
 .reg-new .wrapper .app .dload .code:hover .bigcode {
     display: inline-block;
@@ -394,8 +395,8 @@ a:link {
     /*display: inline-block;*/
 }
 a:hover {
-    color: red;
-    background-color: skyblue;
+    color: #fff !important;
+    background-color: #3377aa !important;
     /*color: white;*/
 }
 /*a:visited {*/
